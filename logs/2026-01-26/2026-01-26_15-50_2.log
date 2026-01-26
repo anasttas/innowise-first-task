@@ -1,0 +1,11 @@
+15:50:21.859 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Parsed array size: 5
+15:50:21.879 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Start parsing line: 
+15:50:21.879 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Parsed array size: 0
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Start parsing line: 1 2 3 4 5
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: 1
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: 2
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: 3
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: 4
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: 5
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Parsed array size: 5
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Start parsing line: -1 -2 -3

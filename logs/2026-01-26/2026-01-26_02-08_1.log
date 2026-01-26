@@ -1,0 +1,10 @@
+02:08:16.829 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+02:08:16.842 [main] INFO  kharlamova.task.service.impl.ArrayServiceImpl - Calculating max value for array id=1
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=5
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=5
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=2
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=9
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=-1
+02:08:16.843 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=4, value=7
+02:08:16.844 [main] INFO  kharlamova.task.service.impl.ArrayServiceImpl - Max value calculated: 9
+02:08:16.867 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1

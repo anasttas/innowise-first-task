@@ -1,0 +1,10 @@
+17:02:21.465 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=3, value=4
+17:02:21.465 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=1, value=2
+17:02:21.465 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=2, value=3
+17:02:21.465 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=2, value=3
+17:02:21.465 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Selection sort finished for array id=8
+17:02:21.496 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=6
+17:02:21.496 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Start selection sort for array id=6
+17:02:21.496 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Selection sort finished for array id=6
+17:02:21.496 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=3
+17:02:21.512 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Start bubble sort for array id=3

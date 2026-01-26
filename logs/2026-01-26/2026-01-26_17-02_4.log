@@ -1,0 +1,10 @@
+17:02:21.512 [main] ERROR org.kharlamova.task.entity.IntArrayEntity - Index out of bounds: index=1, id=3
+17:02:21.550 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=4
+17:02:21.550 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Start bubble sort for array id=4
+17:02:21.550 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=1, value=2
+17:02:21.550 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=0, value=1
+17:02:21.550 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=2, value=3
+17:02:21.550 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=1, value=2
+17:02:21.565 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=3, value=4
+17:02:21.565 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=2, value=3
+17:02:21.565 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=4, index=4, value=5

@@ -1,0 +1,10 @@
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=1
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=3
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=4
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=4
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=3
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=1
+17:14:50.199 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=2
+17:14:50.214 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=2
+17:14:50.214 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=1
+17:14:50.214 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=3

@@ -1,0 +1,10 @@
+02:08:16.868 [main] INFO  kharlamova.task.service.impl.ArrayServiceImpl - Calculating min value for array id=1
+02:08:16.874 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=5
+02:08:16.874 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=5
+02:08:16.875 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=2
+02:08:16.875 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=9
+02:08:16.875 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=-1
+02:08:16.875 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=4, value=7
+02:08:16.876 [main] INFO  kharlamova.task.service.impl.ArrayServiceImpl - Min value calculated: -1
+02:08:16.880 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+02:08:16.882 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=2

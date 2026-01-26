@@ -1,0 +1,10 @@
+17:20:52.970 [main] ERROR org.kharlamova.task.entity.IntArrayEntity - Index out of bounds: index=0, id=2
+17:20:52.986 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:20:52.986 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=2
+17:20:52.986 [main] INFO  kharlamova.task.service.impl.ArrayOperationsImpl - Calculating sum for array id=2
+17:20:52.986 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:20:52.986 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=2
+17:20:52.986 [main] INFO  kharlamova.task.service.impl.ArrayOperationsImpl - Calculating max value for array id=2
+17:20:52.986 [main] ERROR org.kharlamova.task.entity.IntArrayEntity - Index out of bounds: index=0, id=2
+17:20:52.986 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:20:52.986 [main] INFO  kharlamova.task.service.impl.ArrayOperationsImpl - Calculating sum for array id=1

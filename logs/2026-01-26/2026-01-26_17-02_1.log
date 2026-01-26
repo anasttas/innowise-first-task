@@ -1,0 +1,11 @@
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: -1
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: -2
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Found number: -3
+15:50:21.894 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Parsed array size: 3
+15:50:21.910 [main] DEBUG kharlamova.task.parser.impl.ArrayParserImpl - Start parsing line: null
+17:02:21.365 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=8
+17:02:21.380 [main] INFO  kharlamova.task.service.impl.ArraySortImpl - Start selection sort for array id=8
+17:02:21.380 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=0, value=1
+17:02:21.435 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=0, value=1
+17:02:21.435 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=1, value=2
+17:02:21.449 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=8, index=0, value=1

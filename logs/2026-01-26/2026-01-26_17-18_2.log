@@ -1,0 +1,10 @@
+17:18:22.685 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Id changed from 1 to 10
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=99
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=2
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+17:18:22.701 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1

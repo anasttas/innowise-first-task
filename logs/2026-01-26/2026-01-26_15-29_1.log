@@ -1,0 +1,10 @@
+02:08:16.902 [main] INFO  kharlamova.task.service.impl.ArrayServiceImpl - Calculating sum for array id=1
+02:08:16.905 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=5
+02:08:16.906 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=1, value=2
+02:08:16.906 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=2, value=9
+02:08:16.906 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=-1
+02:08:16.906 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=4, value=7
+15:29:29.382 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+15:29:29.444 [main] ERROR org.kharlamova.task.entity.IntArrayEntity - Index out of bounds: index=10, id=1
+15:29:29.460 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+15:29:29.476 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1

@@ -1,0 +1,10 @@
+18:07:36.190 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Validation result for line '1y 2 3': false
+18:07:36.190 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Start validating line: 'null'
+18:07:36.206 [main] WARN  kharlamova.task.validator.impl.ArrayValidatorImpl - Line is null or blank: 'null'
+18:07:36.207 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Start validating line: '1, 2;3-4 5'
+18:07:36.207 [main] INFO  kharlamova.task.validator.impl.ArrayValidatorImpl - Line is valid: '1, 2;3-4 5'
+18:07:36.207 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Validation result for line '1, 2;3-4 5': true
+18:07:36.207 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Start validating line: ''
+18:07:36.207 [main] WARN  kharlamova.task.validator.impl.ArrayValidatorImpl - Line is null or blank: ''
+18:07:36.207 [main] DEBUG kharlamova.task.validator.impl.ArrayValidatorImpl - Start validating line: '1,2,3,4,5'
+18:07:36.207 [main] INFO  kharlamova.task.validator.impl.ArrayValidatorImpl - Line is valid: '1,2,3,4,5'
