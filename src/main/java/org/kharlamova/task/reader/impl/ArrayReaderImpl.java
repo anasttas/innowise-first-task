@@ -18,6 +18,7 @@ public class ArrayReaderImpl implements ArrayReader {
     @Override
     public List<String> readLines(String fileName, String dirName) throws CustomArrayException {
         List<String> lines;
+
         try {
             Path path = FileSystems.getDefault().getPath(dirName, fileName);
             logger.info("Reading file: {}", path);
@@ -26,11 +27,12 @@ public class ArrayReaderImpl implements ArrayReader {
 
             logger.info("File read successfully. Lines count: {}", lines.size());
         } catch (IOException e) {
-            logger.error("Error reading file: {}", fileName, e);
-
-            throw new CustomArrayException(
-                    String.format("Error reading file %s", fileName)
+            logger.error("Error reading file: {}",
+                    fileName,
+                    e
             );
+
+            throw new CustomArrayException("Error reading file %s" + fileName);
         }
 
         return lines;

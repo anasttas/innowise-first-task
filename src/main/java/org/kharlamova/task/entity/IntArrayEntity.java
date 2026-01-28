@@ -25,11 +25,9 @@ public class IntArrayEntity {
     }
 
     public void setArray(int[] array) {
-        logger.debug(
-                "IntArrayEntity updated for id={}",
-                id
-        );
-        this.array = array;
+        logger.debug("IntArrayEntity updated for id={}", id);
+
+        this.array = array.clone();
     }
 
     public Long getId() {
@@ -37,7 +35,11 @@ public class IntArrayEntity {
     }
 
     public void setId(Long id) {
-        logger.debug("Id changed from {} to {}", this.id, id);
+        logger.debug("Id changed from {} to {}",
+                this.id,
+                id
+        );
+
         this.id = id;
     }
 
@@ -57,7 +59,10 @@ public class IntArrayEntity {
         }
 
         logger.debug("Element accessed: id={}, index={}, value={}",
-                id, index, array[index]);
+                id,
+                index,
+                array[index]
+        );
 
         return array[index];
     }
