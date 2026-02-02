@@ -13,8 +13,8 @@ public class ArrayOperationsImpl implements ArrayOperations {
     public int max(IntArrayEntity array) throws CustomArrayException {
         logger.info("Calculating max value for array id={}", array.getId());
 
-
         int maxValue = array.getElementByIndex(0);
+
         for (int i = 0; i < array.getSize(); i++) {
             int value = array.getElementByIndex(i);
 
@@ -32,8 +32,8 @@ public class ArrayOperationsImpl implements ArrayOperations {
     public int min(IntArrayEntity array) throws CustomArrayException {
         logger.info("Calculating min value for array id={}", array.getId());
 
-
         int minValue = array.getElementByIndex(0);
+
         for (int i = 0; i < array.getSize(); i++) {
             int value = array.getElementByIndex(i);
 
@@ -60,5 +60,22 @@ public class ArrayOperationsImpl implements ArrayOperations {
         logger.info("Sum calculated: {}", sum);
 
         return sum;
+    }
+
+    @Override
+    public double average(IntArrayEntity array) throws CustomArrayException {
+        logger.info("Calculating average for array id={}", array.getId());
+
+        if (array.getSize() == 0) {
+            throw new CustomArrayException("Cannot calculate average for empty array");
+        }
+
+        double sum = sumValues(array);
+
+        double average = sum / array.getSize();
+
+        logger.info("Average calculated: {}", average);
+
+        return average;
     }
 }
