@@ -3,11 +3,17 @@ package org.kharlamova.task.entity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.kharlamova.task.exception.CustomArrayException;
+import org.kharlamova.task.observer.ArrayEvent;
+import org.kharlamova.task.observer.ArrayObserver;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class IntArrayEntity {
     private static final Logger logger = LogManager.getLogger();
+
+    private List<ArrayObserver> arrayObservers = new ArrayList<>();
 
     private Long id;
 
@@ -18,6 +24,26 @@ public class IntArrayEntity {
         this.array = array.clone();
 
         logger.debug("IntArrayEntity created with id={}", id);
+    }
+
+    public void notifyObservers() {
+        logger.info("Notify all observers");
+
+        ArrayEvent event = new ArrayEvent(this);
+
+        for (ArrayObserver observer : arrayObservers) {
+            observer.update(event);
+        }
+    }
+
+    public void subscribe(ArrayObserver subscriber) {
+        if (subscriber != null) {
+            arrayObservers.add(subscriber);
+        }
+    }
+
+    public void unsubscribe(ArrayObserver subscriber) {
+        arrayObservers.remove(subscriber);
     }
 
     public int[] getArray() {
@@ -79,6 +105,8 @@ public class IntArrayEntity {
         }
 
         array[index] = value;
+
+        notifyObservers();
     }
 
     @Override

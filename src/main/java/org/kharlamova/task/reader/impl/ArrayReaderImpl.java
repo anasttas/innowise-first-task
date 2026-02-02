@@ -13,7 +13,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class ArrayReaderImpl implements ArrayReader {
-    private static Logger logger = LogManager.getLogger();
+    private final static Logger logger = LogManager.getLogger();
 
     @Override
     public List<String> readLines(String fileName, String dirName) throws CustomArrayException {

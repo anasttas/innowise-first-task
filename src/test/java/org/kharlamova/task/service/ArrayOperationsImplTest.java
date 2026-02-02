@@ -38,6 +38,12 @@ public class ArrayOperationsImplTest {
     }
 
     @Test
+    void testAverage() throws CustomArrayException {
+        double average = arrayService.average(arrayEntity);
+        assertEquals(4.4, average, "Sum should be 22");
+    }
+
+    @Test
     void testMaxWithEmptyArray() {
         IntArrayEntity emptyArray = new IntArrayEntity(2L, new int[]{});
         assertThrows(CustomArrayException.class, () -> arrayService.max(emptyArray));
@@ -54,5 +60,16 @@ public class ArrayOperationsImplTest {
         IntArrayEntity emptyArray = new IntArrayEntity(2L, new int[]{});
         double sum = arrayService.sumValues(emptyArray);
         assertEquals(0, sum, "Sum of empty array should be 0");
+    }
+
+    @Test
+    void testAverageWithEmptyArray() throws CustomArrayException {
+        IntArrayEntity emptyArray = new IntArrayEntity(2L, new int[]{});
+
+        assertThrows(
+                CustomArrayException.class,
+                () -> arrayService.average(emptyArray),
+                "Average of empty array should throw exception"
+        );
     }
 }
