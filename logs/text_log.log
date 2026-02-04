@@ -1,9 +1,7 @@
-18:00:34.098 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Array removed from repository, id=1
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Array removed from repository, id=2
-18:00:34.114 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Array added to repository, id=1
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Querying arrays using specification ArrayRepositoryTest$$Lambda$660/0x00000299dd1b8698
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Query result size=1
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Array removed from repository, id=1
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Querying arrays using specification ArrayRepositoryTest$$Lambda$661/0x00000299dd1b88b0
-18:00:34.114 [main] INFO  org.kharlamova.task.repository.ArrayRepository - Query result size=0
+18:13:40.052 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=3, value=-1
+18:13:40.053 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=4, value=7
+18:13:40.053 [main] INFO  kharlamova.task.service.impl.ArrayOperationsImpl - Sum calculated: 22.0
+18:13:55.144 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=1
+18:13:55.146 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - IntArrayEntity created with id=2
+18:13:55.147 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=1, index=0, value=1
+18:13:55.147 [main] DEBUG org.kharlamova.task.entity.IntArrayEntity - Element accessed: id=2, index=0, value=5

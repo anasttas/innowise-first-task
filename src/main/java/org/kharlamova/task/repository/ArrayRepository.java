@@ -8,6 +8,8 @@ import org.kharlamova.task.specification.ArraySpecification;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ArrayRepository {
     private static final Logger logger = LogManager.getLogger();
@@ -39,19 +41,16 @@ public class ArrayRepository {
         logger.info("Array removed from repository, id={}", intArrayEntity.getId());
     }
 
-    public List<IntArrayEntity> query(ArraySpecification specification) {
-        logger.info("Querying arrays using specification {}",
-                specification.getClass().getSimpleName());
+    public List<IntArrayEntity> streamQuery(ArraySpecification specification) {
+        List<IntArrayEntity> result = arrayEntities.stream()
+                .filter(arrayItem -> specification.isSatisfiedBy(arrayItem))
+                .collect(Collectors.toList());
 
-        List<IntArrayEntity> result = new ArrayList<>();
-
-        for (IntArrayEntity array : arrayEntities) {
-            if (specification.isSatisfiedBy(array)) {
-                result.add(array);
-            }
-        }
-
-        logger.info("Query result size={}", result.size());
+        logger.info(
+                "Query result size={} for {}",
+                result.size(),
+                specification.getClass().getSimpleName()
+        );
 
         return result;
     }

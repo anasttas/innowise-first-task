@@ -60,7 +60,7 @@ public class IntArrayEntityTest {
     }
 
     @Test
-    void testSetArray() {
+    void testSetArray() throws CustomArrayException{
         arrayEntity.setArray(new int[]{10, 20, 30});
 
         assertEquals(3, arrayEntity.getSize());

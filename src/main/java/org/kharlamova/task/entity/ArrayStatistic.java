@@ -9,7 +9,7 @@ public class ArrayStatistic {
 
     private double average;
 
-    public ArrayStatistic(int max, int min, double sum, double average) {
+    public ArrayStatistic(int min, int max, double sum, double average) {
         this.sum = sum;
         this.min = min;
         this.max = max;

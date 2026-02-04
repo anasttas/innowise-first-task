@@ -26,7 +26,7 @@ public class IntArrayEntity {
         logger.debug("IntArrayEntity created with id={}", id);
     }
 
-    public void notifyObservers() {
+    public void notifyObservers() throws CustomArrayException {
         logger.info("Notify all observers");
 
         ArrayEvent event = new ArrayEvent(this);
@@ -50,10 +50,12 @@ public class IntArrayEntity {
         return array.clone();
     }
 
-    public void setArray(int[] array) {
+    public void setArray(int[] array) throws CustomArrayException {
         logger.debug("IntArrayEntity updated for id={}", id);
 
         this.array = array.clone();
+
+        notifyObservers();
     }
 
     public Long getId() {
