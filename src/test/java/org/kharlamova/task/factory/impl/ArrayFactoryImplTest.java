@@ -26,7 +26,7 @@ public class ArrayFactoryImplTest {
 
         IntArrayEntity result = factory.createArray(2L, sourceArray);
 
-        sourceArray[0] = 999; // меняем исходный массив
+        sourceArray[0] = 999;
 
         assertNotEquals(999, result.getArray()[0]);
     }

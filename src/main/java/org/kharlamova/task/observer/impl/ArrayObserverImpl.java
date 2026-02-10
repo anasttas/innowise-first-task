@@ -1,5 +1,7 @@
 package org.kharlamova.task.observer.impl;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.kharlamova.task.entity.ArrayStatistic;
 import org.kharlamova.task.entity.IntArrayEntity;
 import org.kharlamova.task.exception.CustomArrayException;
@@ -10,12 +12,14 @@ import org.kharlamova.task.service.ArrayOperations;
 import org.kharlamova.task.service.impl.ArrayOperationsImpl;
 
 public class ArrayObserverImpl implements ArrayObserver {
+    private final static Logger logger = LogManager.getLogger();
+
     private final Warehouse warehouse = Warehouse.getInstance();
 
     private final ArrayOperations service = new ArrayOperationsImpl();
 
     @Override
-    public void update(ArrayEvent event) throws CustomArrayException {
+    public void update(ArrayEvent event) {
         IntArrayEntity array = event.getArray();
 
         try {
@@ -29,7 +33,7 @@ public class ArrayObserverImpl implements ArrayObserver {
             warehouse.putData(array.getId(), stats);
 
         } catch (CustomArrayException e) {
-            throw new CustomArrayException("Failed to calculate array statistics");
+            logger.error("Failed to calculate array statistics");
         }
     }
 }

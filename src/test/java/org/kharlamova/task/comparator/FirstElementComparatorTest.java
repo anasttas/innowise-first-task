@@ -2,6 +2,7 @@ package org.kharlamova.task.comparator;
 
 import org.junit.jupiter.api.Test;
 import org.kharlamova.task.entity.IntArrayEntity;
+import org.kharlamova.task.exception.CustomArrayException;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
